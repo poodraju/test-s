@@ -1,10 +1,10 @@
 function numberSum() {
-    var total = 0;
-      for(var i = 1; i <= 9; i++){
-        total += i;
+    var n = 10;
+      for(var i = 1; i <= 10; i++){
+        n += i;
       }
-      console.log("total of n numbers",total)
+      console.log("total of n numbers",n)
   }
 
 
-  numberSum()
+  numberSum(n)
